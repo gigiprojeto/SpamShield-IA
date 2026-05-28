@@ -1,4 +1,4 @@
-# 📌 VERSION.md — SpamShield IA
+# 📌 Histórico de versões
 
 ## 🚀 Versão Atual
 
