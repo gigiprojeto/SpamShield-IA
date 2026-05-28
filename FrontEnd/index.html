@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpamShield IA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <h1>SpamShield IA</h1>
+    </div>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Projeto</a>
+        <a href="#">Tecnologias</a>
+        <a href="#">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h2>Detector Inteligente de Spam com Machine Learning</h2>
+
+        <p>
+            Projeto acadêmico desenvolvido em Python utilizando
+            Inteligência Artificial para identificar automaticamente
+            mensagens de spam em emails.
+        </p>
+
+        <!-- INPUT -->
+        <input type="text" id="mensagem" placeholder="Digite sua mensagem aqui...">
+
+        <!-- BOTÃO -->
+        <button onclick="analisarSpam()">Analisar Mensagem</button>
+
+        <!-- RESULTADO -->
+        <div id="resultado"></div>
+
+    </div>
+
+    <div class="hero-card">
+
+        <h3>Exemplo de análise</h3>
+
+        <div class="message spam">
+            “Parabéns! Você ganhou um prêmio.”
+        </div>
+
+        <div class="result red">
+            Resultado: SPAM
+        </div>
+
+        <div class="message ham">
+            “Oi, vamos marcar a reunião amanhã?”
+        </div>
+
+        <div class="result green">
+            Resultado: HAM
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about">
+
+    <h2>Sobre o Projeto</h2>
+
+    <p>
+        O sistema utiliza técnicas de Machine Learning e Processamento
+        de Linguagem Natural para classificar mensagens como spam ou não spam.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Pré-processamento</h3>
+            <p>Limpeza e preparação dos dados utilizando Pandas.</p>
+        </div>
+
+        <div class="card">
+            <h3>TF-IDF</h3>
+            <p>Conversão de textos em valores numéricos para análise da IA.</p>
+        </div>
+
+        <div class="card">
+            <h3>Naive Bayes</h3>
+            <p>Algoritmo de Machine Learning utilizado para classificação.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="tech">
+
+    <h2>Tecnologias Utilizadas</h2>
+
+    <div class="tech-list">
+
+        <span>Python</span>
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>Pandas</span>
+        <span>Scikit-learn</span>
+        <span>Machine Learning</span>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>Projeto acadêmico de detecção de spam utilizando Machine Learning e simulação com JavaScript.</p>
+</footer>
+
+<!-- 👇 LINK PARA O JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
