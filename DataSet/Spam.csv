@@ -1,1 +1,9 @@
-
+classe,mensagem
+spam,"Parabéns! Você ganhou um prêmio"
+spam,"Clique aqui para receber dinheiro grátis"
+spam,"Você foi selecionado para ganhar um bônus"
+spam,"Promoção imperdível, acesse agora"
+ham,"Olá, como você está?"
+ham,"Vamos marcar uma reunião amanhã"
+ham,"Seu pedido foi enviado"
+ham,"Bom dia, tudo bem?"
