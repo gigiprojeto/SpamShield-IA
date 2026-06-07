@@ -4,7 +4,7 @@ import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-dados = pd.read_csv("../dataset/spam.csv")
+dados = pd.read_csv("dataset/spam.csv")
 
 X = dados["mensagem"]
 y = dados["classe"]
